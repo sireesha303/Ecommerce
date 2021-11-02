@@ -48,7 +48,6 @@ class Order(models.Model):
     status = models.BooleanField(default=False)
 
     def __str__(self):
-        #order_name = customer.first_name+"_"+"_"
         return str(self.id)
 
 
