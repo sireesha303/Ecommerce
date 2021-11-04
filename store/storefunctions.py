@@ -5,9 +5,11 @@
 from .models import *
 from datetime import date
 
+
 class CustomerNotExisted(Exception):
     """
-    Customer DoesNot Existed Exception handling
+    Exception handling Class
+    Exception:Customer DoesNot Existed
     """
     pass
 
